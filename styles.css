@@ -1,0 +1,43 @@
+html {
+	background-color: #000;
+}
+
+button {
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.sectionBox {
+	color: FFF; 
+	border: 2px solid #FFF;
+	border-radius: 5px; 
+	padding: 5px;
+	margin: 5px;
+	min-width: 300px;
+	max-width: 500px;
+	background-image: radial-gradient(orange, #000);
+	background-repeat:  no-repeat; 
+	background-position: center; 
+}
+
+.sectionBox:hover {
+	background-image: radial-gradient(green, #000);
+	background-repeat:  no-repeat; 
+	background-position: center; 
+}
+
+.btnSpacing {
+	margin-top: 3px;
+}
+
+.guideBox {
+	height: 25px;
+	margin-top: 5px;
+	margin-bottom: -5px;
+	color: lime; 
+}
+
+#output {
+	height: 25px;
+}
+
